@@ -1,4 +1,4 @@
-import{r as n,s as I,a as S,j as a,P as L,C as H,b as P,T as q,S as z,D as G}from"./index-Nk3ayLti.js";const V=new Map(S.map(l=>[l.id,l]));function X(l){return V.get(l)}function Y(l){return l.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")}function Z(l){const o=l.map(u=>{const g=u.items.map(c=>`      { itemId: "${c.itemId}", qtyOwned: 0, qtyRequired: ${c.qtyRequired}, isCompleted: false }`).join(`,
+import{r as n,s as I,a as S,j as a,P as L,C as H,b as P,T as q,S as z,D as G}from"./index-BbAS0shS.js";const V=new Map(S.map(l=>[l.id,l]));function X(l){return V.get(l)}function Y(l){return l.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")}function Z(l){const o=l.map(u=>{const g=u.items.map(c=>`      { itemId: "${c.itemId}", qtyOwned: 0, qtyRequired: ${c.qtyRequired}, isCompleted: false }`).join(`,
 `);return`  {
     id: "${u.id}",
     name: "${u.name}",
